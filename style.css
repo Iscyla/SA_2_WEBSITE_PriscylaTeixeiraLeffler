@@ -3,6 +3,41 @@ body {
   padding: 0;
   background-color: black;
 }
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+/* Seletor por Classe */
+.navegacao ul {
+  /* Layout com Flexbox */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(201, 0, 0);
+}
+
+/* Seletor por Classe */
+.navegacao a {
+/* Layout com Flexbox */
+  font-family: "Alata", sans-serif;
+  text-decoration: none;
+  color: red;
+  background-color: black;
+  padding: auto;
+}
+
+/* Seletor por Classe */
+.navegacao a:hover {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+/* Seletor por Classe */
 .ingresso {
   background-image: url(/img/festival.jpg);
   background-repeat: no-repeat;
@@ -15,31 +50,7 @@ body {
   background-position: 50% 0px;
 }
 
-.navegacao ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  background-color: rgb(201, 0, 0);
-}
-
-.navegacao a {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: red;
-  background-color: black;
-  padding: auto;
-}
-
-.navegacao a:hover {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  background-color: black;
-}
-
+/* Seletor por Classe */
 .ingresso {
   margin: auto;
   padding-top: 100px;
@@ -49,16 +60,19 @@ body {
   background-color: rgba(156, 156, 156, 0.062);
 }
 
+/* Seletor por Classe */
 .ingresso h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80px;
 }
 
+/* Seletor por Classe */
 .ingresso h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
 
+/* Seletor por Classe */
 .ingresso a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -68,6 +82,7 @@ body {
   padding: 20px;
 }
 
+/* Seletor por Classe */
 .informacao {
   font-family: Arial, Helvetica, sans-serifF;
   display: block;
@@ -77,22 +92,26 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+/* Seletor por Classe */
 .ingresso a:hover {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
+/* Seletor por Classe */
 .informacao h2 {
   font-size: 30px;
   color: rgb(201, 0, 0);
 }
 
+/* Seletor por Classe */
 .informacao p {
   font-size: 20px;
   color: white;
 }
 
+/* Seletor por Tag */
 footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 6p;
@@ -105,20 +124,98 @@ footer {
 }
 
 /* css para programação */
-.programacao {
+
+/* Seletor por ID */
+#programacao {
+  /* Layout com Flexbox */
+  background-image: url(/img/festival.jpg);
+  background-repeat: no-repeat;
+  background-size: 1920px auto;
+  width: 100%;
+  max-width: 1920px;
+  height: 667px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50% 0px;
+}
+
+/* Seletor por ID */
+#programacao {
+  margin: auto;
+  padding-top: 100px;
+  display: block;
+  text-align: center;
+  background-color: rgba(156, 156, 156, 0.062);
+}
+
+/* Seletor por ID */
+#programacao h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+/* Seletor por Classe */
+.evento {
   font-family: Arial, Helvetica, sans-serifF;
+  display: block;
+  margin-top: 0;
+  text-align: center;
+  gap: 30px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Seletor por Classe */
+.evento h2 {
+  font-size: 30px;
   color: rgb(201, 0, 0);
-  padding: 6px;
+}
+
+/* Seletor por Classe */
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
 }
 
-table {
+/* Seletor por Classe */
+.container td,
+th {
   font-family: Arial, Helvetica, sans-serifF;
   color: rgb(201, 0, 0);
-  padding: 6px;
-  align-items: center;
-  gap: 30px;
+}
+
+/* css para a galeria */
+/* Seletor por Classe */
+.galeria {
+  /* Layout com Flexbox */
+  background-image: url(/img/festival.jpg);
+  background-repeat: no-repeat;
+  background-size: 1920px auto;
+  width: 100%;
+  max-width: 1920px;
+  height: 667px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50% 0px;
+}
+
+/* Seletor por Classe */
+.galeria {
+  margin: auto;
+  padding-top: 5px;
+  display: block;
+  text-align: center;
+  background-color: rgba(156, 156, 156, 0.062);
+}
+
+/* Seletor por Classe */
+.galeria h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+/* Seletor por Tag */
+figure {
+  display: inline-block;
+  margin: 10px;
 }
