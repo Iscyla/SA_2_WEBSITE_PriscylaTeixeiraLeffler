@@ -39,7 +39,7 @@ body {
 
 /* Seletor por Classe */
 .ingresso {
-  background-image: url(/img/festival.jpg);
+  background-image: url(./img/festival.jpg);
   background-repeat: no-repeat;
   background-size: 1920px auto;
   width: 100%;
@@ -147,7 +147,7 @@ footer {
 /* Seletor por ID */
 #programacao {
   /* Layout com Flexbox */
-  background-image: url(/img/festival.jpg);
+  background-image: url(./img/festival.jpg);
   background-repeat: no-repeat;
   background-size: 1920px auto;
   width: 100%;
@@ -207,7 +207,7 @@ th {
 /* Seletor por Classe */
 .galeria {
   /* Layout com Flexbox */
-  background-image: url(/img/festival.jpg);
+  background-image: url(./img/festival.jpg);
   background-repeat: no-repeat;
   background-size: 1920px auto;
   width: 100%;
